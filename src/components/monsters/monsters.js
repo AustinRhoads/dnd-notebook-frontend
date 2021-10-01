@@ -1,4 +1,5 @@
 import React, {} from 'react'
+import cuid from 'cuid'
 
 const Monsters = ({monsters}) => {
     //console.log(monsters)
@@ -6,7 +7,7 @@ const Monsters = ({monsters}) => {
         var first50 = monsters.slice(0, 50)
         return(
             <ul>
-                {first50.map((mon) => { return <li>{mon.name}</li>})}
+                {first50.map((mon) => { return <li key={cuid()}>{mon.name}</li>})}
             </ul>
         )
     }

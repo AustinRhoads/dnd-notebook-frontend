@@ -1,0 +1,7 @@
+.class-list-item{
+    text-decoration: none;
+}
+
+.class-list-item:hover{
+    cursor: pointer;
+}
