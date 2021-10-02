@@ -8,9 +8,8 @@ const CharacterInput = ({classes}) => {
 
    // const [selectedClass, setSelectedClass] = useState([])
 
-    function selectClass(url){
-        console.log("hey")
-        console.log(url)
+    function selectClass(){
+     
        // fetch(API_URL + url).then(resp => resp.json()).then(obj => console.log(obj))
     } 
 

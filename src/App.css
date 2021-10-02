@@ -38,5 +38,14 @@
 }
 
 #home-section{
+
+  overflow: hidden;
+}
+#notebook-img{
+  position: absolute;
+  z-index: 0;
+  width: 100vw;
   
+  left: 0;
+
 }
