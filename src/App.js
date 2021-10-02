@@ -2,13 +2,14 @@ import React, { useState, useEffect } from 'react';
 import './App.css';
 //import Monsters from './components/monsters/monsters';
 import CharacterInput from './components/characters/CharacterInput'
+import Home from './components/Home.js'
 
 
 
 
 function App() {
 
-  const API_URL = "https://www.dnd5eapi.co"
+  
 
   //const [monsters, setMonsters] = useState([])
   const [classes, setClasses] = useState([])
@@ -55,7 +56,7 @@ function App() {
 
   return (
     <div className="App">
-     
+     <Home />
       {/*<Monsters monsters={monsters}/>*/}
       <CharacterInput classes={classes} races={races} />
     </div>

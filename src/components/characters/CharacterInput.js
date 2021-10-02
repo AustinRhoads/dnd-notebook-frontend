@@ -1,12 +1,12 @@
 import cuid from 'cuid';
-import React, {useState, useEffect} from 'react';
+import React, { useEffect} from 'react';
 import './Character.css'
 
 const CharacterInput = ({classes}) => {
 
-    const API_URL = "https://www.dnd5eapi.co"
+    
 
-    const [selectedClass, setSelectedClass] = useState([])
+   // const [selectedClass, setSelectedClass] = useState([])
 
     function selectClass(url){
         console.log("hey")
