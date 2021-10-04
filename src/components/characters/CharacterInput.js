@@ -30,7 +30,7 @@ const CharacterInput = ({classes}) => {
     }
 
     return(
-        <div>
+        <div id="character-input">
             {renderClasses(classes)}
 
         </div>

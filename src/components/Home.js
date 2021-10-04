@@ -5,10 +5,10 @@ import notebook from '../images/red_notebook.png'
 const Home = () => {
 
     return (
-        <section id="home-section">
+        <div id="home-section">
             <img id="notebook-img" alt="" src={notebook} />
-            <div>GET STARTED</div>
-        </section>
+            <div id="home-start-link">GET STARTED</div>
+        </div>
     )
 };
 

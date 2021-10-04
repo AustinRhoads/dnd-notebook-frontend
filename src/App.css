@@ -38,14 +38,43 @@
 }
 
 #home-section{
-
+  background-color: black;
   overflow: hidden;
 }
+
 #notebook-img{
   position: absolute;
   z-index: 0;
   width: 100vw;
   
   left: 0;
+ /* background-color: rgb(146, 221, 156);*/
+  background-color: rgb(5, 5, 5);
 
+}
+
+
+#home-start-link{
+  position: absolute;
+  display: inline-block;
+  align-self: center;
+  font-size: 14pt;
+  padding-left: 20px;
+  padding-right: 20px;
+  z-index: 2;
+ /* width: 125px;
+  height: 33px;*/
+  border: solid black 3px;
+  top: 50vh;
+  left: calc(50vw - 75px)
+}
+
+#home-start-link:hover{
+  cursor: pointer;
+}
+
+
+#character-input{
+  position: absolute;
+  top: 100vh;
 }
